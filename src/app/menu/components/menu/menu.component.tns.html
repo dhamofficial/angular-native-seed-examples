@@ -1,0 +1,13 @@
+<DockLayout stretchLastChild="true">
+    <GridLayout dock="right" rows="40, 40" columns="auto">
+        <Button row="0" text="EN" (tap)="switchLanguage('en')" class="btn btn-primary"></Button> 
+        <Button row="1" text="ES" (tap)="switchLanguage('es')" class="btn btn-primary"></Button>
+    </GridLayout>
+    <ScrollView orientation="horizontal">
+        <StackLayout orientation="horizontal">
+            <seed-menu-item *ngFor="let item of items"
+                [item]="item">
+            </seed-menu-item>
+        </StackLayout>
+    </ScrollView>
+</DockLayout>

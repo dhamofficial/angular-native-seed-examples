@@ -1,0 +1,35 @@
+{
+    "menu": {
+        "home": "Casa",
+        "about": "Acerca de",
+        "lazy": "Perezoso",
+        "simple": "Sencillo",
+        "infinite": "Infinito"
+    },
+    "home": {
+        "title": "Casa",
+        "description": "Este componente es parte de un módulo que fue importado directamente en el AppModule principal."
+    },
+    "about": {
+        "title": "Acerca de",
+        "description": "Este componente se procesó desde un módulo cargado de modo lento."
+    },
+    "simple": {
+        "title": "Simply Red",
+        "song": "Algo me hizo comenzar",
+        "hello": "Di Hola",
+        "message": "Un saludo para gobernarlos a todos"
+    },
+    "phone": {
+        "edition": "¡Edición del teléfono!"
+    },
+    "lazy": {
+        "title": "Broma perezosa",
+        "jonsLine": "Jon: Garfield, podrías dar clases sin hacer nada",
+        "garfieldsLine": "Garfield: No, no pude",
+        "image": "images/lazy-cat-ES.gif"
+    },
+    "infinite": {
+        "title": "Infinito"
+    }
+}

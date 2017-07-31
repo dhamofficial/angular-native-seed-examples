@@ -1,0 +1,35 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "lazy": "Lazy",
+        "simple": "Simple",
+        "infinite": "Infinite"
+    },
+    "home": {
+        "title": "Home",
+        "description": "This component is part of a module that was directly imported into the main AppModule."
+    },
+    "about": {
+        "title": "About",
+        "description": "This component was rendered from a lazy-loaded module."
+    },
+    "simple": {
+        "title": "Simply Red",
+        "song": "Something got me started",
+        "hello": "Say hello",
+        "message": "One hello to rule them all"
+    },
+    "phone": {
+        "edition": "Phone Edition!"
+    },
+    "lazy": {
+        "title": "Lazy joke",
+        "jonsLine": "Jon: Garfield, you could give classes in doing nothing",
+        "garfieldsLine": "Garfield: No, I couldn't",
+        "image": "images/lazy-cat-EN.gif"
+    },
+    "infinite": {
+        "title": "Infinite"
+    }
+}

@@ -1,0 +1,10 @@
+<GridLayout rows="auto, auto, auto">
+    <Label class="h1 title"
+        [text]="'simple.title' | translate"></Label>
+    <Label class="p description" textWrap="true" row="1"
+        [text]="'simple.song' | translate"></Label>
+
+    <Button class="btn btn-primary" row="2"
+        [text]="'simple.hello' | translate"
+        (tap)="sayHello()"></Button>
+</GridLayout>
